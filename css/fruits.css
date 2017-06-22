@@ -80,3 +80,23 @@ li:hover, a:hover { /* These create persistent hover states, meaning the top-mos
 nav  li ul li{
     background: rgba(34, 34, 34, .2);
 }
+.pic { width: 600px; height: auto;
+    margin: 50px;
+}
+.post-container {
+    margin: 20px 20px 0 0;
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    margin-left: 210px
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%
+}
+
