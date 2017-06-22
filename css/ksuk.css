@@ -1,14 +1,11 @@
 body {
     color: #e24c95;
-    background-color: pink;
-    background-image: 265792.jpg ;
-    background-repeat: repeat;
-    background-position: right;
-    background-attachment: local;
+    background: pink url("/background.jpg") repeat local right;
     text-align: center;
 }
 
-.h2 {font-family: 'Algerian_R A', arial; }
+.h2 {
+    font-family: 'Algerian_R A', arial, serif; }
 
 .top-menu {
     position: relative;
@@ -45,27 +42,27 @@ body {
     transition: .3s linear;
 }
 .menu-main a:hover {background: rgba(0,0,0,.3);}
-@media (max-width: 830px) {
-    .menu-main {
-        padding-top: 90px;
-        text-align: center;
-    }
-    .navbar-logo {
-        position: absolute;
-        left: 50%;
-        top: 10px;
-        transform: translateX(-50%);
-    }
-    .menu-main li {
-        float: none;
-        display: inline-block;
-    }
-    .menu-main a {
-        line-height: normal;
-        padding: 20px 15px;
-        font-size: 16px;
-    }
-}
-@media (max-width: 630px) {
-    .menu-main li {display: block;}
-}
+/*@media (max-width: 830px) {*/
+    /*.menu-main {*/
+        /*padding-top: 90px;*/
+        /*text-align: center;*/
+    /*}*/
+    /*.navbar-logo {*/
+        /*position: absolute;*/
+        /*left: 50%;*/
+        /*top: 10px;*/
+        /*transform: translateX(-50%);*/
+    /*}*/
+    /*.menu-main li {*/
+        /*float: none;*/
+        /*display: inline-block;*/
+    /*}*/
+    /*.menu-main a {*/
+        /*line-height: normal;*/
+        /*padding: 20px 15px;*/
+        /*font-size: 16px;*/
+    /*}*/
+/*}*/
+/*@media (max-width: 630px) {*/
+    /*.menu-main li {display: block;}*/
+/*}*/
