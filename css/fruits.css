@@ -1,0 +1,82 @@
+body {
+    color: #31e238;
+    background: #a9ff9b;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+.h2 {
+    font-family: 'Algerian_R A', arial, serif;
+}
+
+.top-menu {
+    position: relative;
+    background: rgba(34, 34, 34, .2);
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-item {
+    float: left;
+}
+
+.right-item {
+    float: right;
+}
+
+.navbar-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    line-height: 80px;
+    padding: 0 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: white;
+    transition: .3s linear;
+}
+
+/*--- drop down ---*/
+nav ul.drop-down {
+    background: rgba(255, 255, 255, 0);
+    list-style: none;
+    position: absolute;
+    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display: none;) */
+}
+
+nav ul.drop-down li {
+    padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+    float: none;
+}
+
+nav ul.drop-down a {
+    white-space: nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+
+nav li:hover ul.drop-down { /* Display the dropdown on hover */
+    left: 0; /* Bring back on-screen when needed */
+}
+
+li:hover, a:hover { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+    background-color: #2b6b27;
+    text-decoration: none;
+}
+nav  li ul li{
+    background: rgba(34, 34, 34, .2);
+}
