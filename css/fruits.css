@@ -77,26 +77,32 @@ li:hover, a:hover { /* These create persistent hover states, meaning the top-mos
     background-color: #2b6b27;
     text-decoration: none;
 }
-nav  li ul li{
+
+nav li ul li {
     background: rgba(34, 34, 34, .2);
 }
-.pic { width: 600px; height: auto;
-    margin: 50px;
+
+.pic {
+    width: 500px;
+    height: auto;
+    display: block;
 }
+
 .post-container {
-    margin: 20px 20px 0 0;
+    margin: 10px auto;
+    width: 1000px;
 }
+
 .post-thumb {
-    float: left
+    float: left;
 }
-.post-thumb img {
-    display: block
-}
+
 .post-content {
-    margin-left: 210px
+   float: right;
 }
+
 .post-title {
     font-weight: bold;
-    font-size: 200%
+    font-size: 200%;
 }
 
