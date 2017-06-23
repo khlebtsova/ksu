@@ -1,10 +1,10 @@
 body {
-    background: pink url("/dostavka.jpg");
+    background: url("/dostavka.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    color: #e9d324;
-    background: #eded7e;
+    color: #dcc721;
+    background: rgba(237, 237, 126, 0.78);
     text-align: center;
 }
 

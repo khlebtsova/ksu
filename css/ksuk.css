@@ -1,7 +1,6 @@
 body {
     color: #e24c95;
-    background: pink url("/background.jpg");
-    background-repeat: repeat-x;
+    background: pink;
     text-align: center;
 }
 
@@ -51,9 +50,6 @@ body {
     color: white;
     transition: .3s linear;
 }
-
-
-
 
 /*--- drop down ---*/
 nav ul.drop-down {

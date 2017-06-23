@@ -74,7 +74,7 @@ nav li:hover ul.drop-down { /* Display the dropdown on hover */
 }
 
 li:hover, a:hover { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-    background-color: #daad3c;
+    background-color: #cda239;
     text-decoration: none;
 }
 
