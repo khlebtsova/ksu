@@ -1,6 +1,6 @@
 body {
-    color: #31e238;
-    background: #a9ff9b;
+    color: #8b4205;
+    background: #e2cf76;
     background-repeat: repeat-x;
     text-align: center;
 }
@@ -74,7 +74,7 @@ nav li:hover ul.drop-down { /* Display the dropdown on hover */
 }
 
 li:hover, a:hover { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-    background-color: #2b6b27;
+    background-color: #6b3016;
     text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ nav li ul li {
 }
 
 .pic {
-    width: 500px;
+    width: auto;
     height: auto;
     display: block;
 }
@@ -101,7 +101,7 @@ nav li ul li {
     float: right;
     text-align: left;
     font-weight: bold;
-    color: #247b19;
+    color: #7B6214;
     font-size: 18px;
 }
 

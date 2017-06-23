@@ -1,7 +1,10 @@
 body {
-    color: #31e238;
-    background: #a9ff9b;
-    background-repeat: repeat-x;
+    background: pink url("/dostavka.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #e9d324;
+    background: #eded7e;
     text-align: center;
 }
 
@@ -52,6 +55,9 @@ body {
     transition: .3s linear;
 }
 
+
+
+
 /*--- drop down ---*/
 nav ul.drop-down {
     background: rgba(255, 255, 255, 0);
@@ -74,39 +80,18 @@ nav li:hover ul.drop-down { /* Display the dropdown on hover */
 }
 
 li:hover, a:hover { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-    background-color: #2b6b27;
+    background-color: #b4a439;
     text-decoration: none;
 }
-
-nav li ul li {
+nav  li ul li{
     background: rgba(34, 34, 34, .2);
 }
 
-.pic {
-    width: 500px;
-    height: auto;
-    display: block;
-}
-
-.post-container {
-    margin: 10px auto;
-    width: 1000px;
-}
-
-.post-thumb {
-    float: left;
-}
-
-.post-content {
-    float: right;
-    text-align: left;
+.dostavka {
+    padding: 1em;
+    font-size: 2em;
+    text-align: center;
+    background: #FFF5D7;
+    opacity: 0.5;
     font-weight: bold;
-    color: #247b19;
-    font-size: 18px;
 }
-
-.post-title {
-    font-weight: bold;
-    font-size: 200%;
-}
-
