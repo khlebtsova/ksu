@@ -88,10 +88,7 @@ nav  li ul li{
 }
 
 .dostavka {
-    padding: 1em;
-    font-size: 2em;
-    text-align: center;
-    background: #FFF5D7;
-    opacity: 0.5;
+    font-size: 1em;
+    text-align: justify;
     font-weight: bold;
 }
