@@ -1,11 +1,8 @@
 body {
-    background-image: "dostavka.jpg" ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    color: #6a288f;
-    background: rgba(164, 70, 233, 0.5);
+    background: rgba(164, 70, 233, 0.5) url("/dostavka.jpg");
     text-align: center;
+
+    color: #6a288f;
 }
 
 .h2 {
@@ -87,11 +84,10 @@ nav  li ul li{
     background: rgba(34, 34, 34, .2);
 }
 
-.dostavka {
-    padding: 1em;
-    font-size: 2em;
-    text-align: center;
-    background: #FFF5D7;
-    opacity: 0.5;
+.oplata {
+    font-size: 1em;
+    text-align: justify;
     font-weight: bold;
+    width: 800px;
+    margin: 0 auto 100px auto;
 }

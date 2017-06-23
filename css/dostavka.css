@@ -55,9 +55,6 @@ body {
     transition: .3s linear;
 }
 
-
-
-
 /*--- drop down ---*/
 nav ul.drop-down {
     background: rgba(255, 255, 255, 0);
@@ -83,7 +80,8 @@ li:hover, a:hover { /* These create persistent hover states, meaning the top-mos
     background-color: #b4a439;
     text-decoration: none;
 }
-nav  li ul li{
+
+nav li ul li {
     background: rgba(34, 34, 34, .2);
 }
 
@@ -91,4 +89,6 @@ nav  li ul li{
     font-size: 1em;
     text-align: justify;
     font-weight: bold;
+    width: 800px;
+    margin: 0 auto;
 }
